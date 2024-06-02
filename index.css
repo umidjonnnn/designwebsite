@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+}
+
+.links{
+    display: flex;
+
+ 
+    gap: 30px;
+    
+    a{
+        text-decoration: none;
+        color: grey;
+        font-weight: 300;
+        font-size: 18px;
+        font-family: 'Roboto';
+    }
+
+}
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card1{
+    width: 400px;
+    height: 345px;
+    border-color: yellowgreen;
+    border: yellow;
+    border-radius: 10%;
+
+}
+
+button{
+    padding: 3px 4px 3px;
+    background-color: rgb(0, 165, 110);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 300;
+}
+
+nav{
+    max-width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(20, 20, 20);
+    font-weight: 700;
+    padding: 100px auto;
+
+
+}
+.main{
+  padding-left:315px;
+  padding-top: 200px;
+  display: flex;
+  gap: 90px;
+  padding-bottom: 110px;
+}
+
+img{
+    width: 600px;
+    margin-top: -70px;
+}
+
+.main-btn{
+    padding: 15px 20px 15px;
+}
+
+.main-text{
+    color: grey;
+    font-size: 30px;
+    padding: 60px 0 60px ;
+}
+
+.foot-content{
+      padding: 0 310px 0;
+}
+
+.foot-text{
+    color: grey;
+
+}
+
+.main-title{
+    font-size: 80px;
+    background: -webkit-linear-gradient(#285640, #e7ede7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
